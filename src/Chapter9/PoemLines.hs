@@ -1,4 +1,4 @@
-module PoemLines where
+module Chapter9.PoemLines where
 
 split :: Char -> String -> [String]
 split _ "" = []

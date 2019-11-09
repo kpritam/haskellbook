@@ -6,7 +6,7 @@ myHead (x:_) = Just x
 
 myTail :: [a] -> Maybe [a]
 myTail []     = Nothing
-myTail (x:[]) = Nothing
+myTail [x] = Nothing
 myTail (_:xs) = Just xs
 
 zip0 :: [a] -> [b] -> [(a, b)]
